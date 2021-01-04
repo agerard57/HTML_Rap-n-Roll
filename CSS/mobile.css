@@ -1,0 +1,501 @@
+.rap body {
+  color: white;
+	background: #DEDEDE url('../images/rap/rap-bg.jpg') top left repeat-x;
+    font-family: bahnschrift;
+    letter-spacing: 0.09rem;
+	width:90%;
+	margin:auto;
+	min-width:600px;
+	max-width:2000px;
+
+}
+.rap header h1{
+	font-family: raphtalia;
+	text-align: center;
+	font-size: 320%;
+}
+
+.rap section{
+	padding : 0;
+	max-width : 1100px;
+	margin : auto;
+	text-align : justify;
+}
+.rap h3{
+	font-size: 210%;
+}
+.rap a{
+	text-decoration: none;
+	color: white;
+}
+.quiz article{
+	font-size: 200%;
+	text-align: center;
+}
+
+.quiz td{
+	color: white;
+}
+.rap figure img{
+	max-height: 130px;
+	border: 3px solid #6c148e;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rap .histoire{
+	background : rgba( 255,  215,  255, 0.6);
+	text-align : center;
+	border-bottom: solid #6c148e 3px;
+	padding :  10px 2% 10px 2%;
+	color: black;
+	margin-top: 30%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.quiz footer{
+	background : rgba( 255,  215,  255, 0.6);
+	text-align : center;
+	border-bottom: solid #6c148e 3px;
+	padding :  10px 2% 10px 2%;
+	color: black;
+	margin-top: 10%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.art footer{
+	background : rgba( 255,  215,  255, 0.6);
+	text-align : center;
+	border-bottom: solid #6c148e 3px;
+	padding :  10px 2% 10px 2%;
+	color: black;
+	margin-top: 10%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.rap :root{
+		     --couleur-rock: red;
+			 --couleur-rap: #6c148e;
+		}
+.rap .logo {
+            float: right;
+            margin-top: 20px;
+            max-width: 180px;
+			padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+           .rap .mobile img {
+                display: none;
+            }
+        }
+
+@media screen and (max-width: 767px) {
+
+.rap .mobile img {
+                display: block;
+            }
+
+        }
+
+#menu-rap, #menu-rap ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+#menu-rap{
+    text-align: center;
+}
+
+#menu-rap li {
+    display: inline-block;
+}
+
+#menu-rap a,#menu-rap b{
+    text-decoration: none;
+    display: block;
+    color:white;
+    padding : 20px;
+}
+
+#menu-rap a:hover{
+	color: #6c148e;
+	border-bottom: solid #6c148e 2px;
+	padding-bottom: 2px;
+}
+
+.rap ul li a{
+  font-size:140%;
+}
+.rap ul li ul {
+  font-size: 80%;
+ }
+	
+@font-face {
+            /* police rap */
+
+
+            font-family: raphtalia;
+            src: url('../polices/raphtalia.ttf') format("truetype");
+}
+
+@font-face {
+            /* police rap2 */
+
+
+            font-family: bahnschrift;
+            src: url('../polices/BAHNSCHRIFT.woff') format("woff");
+}
+
+.rap .contenu{
+	max-width : 1100px;
+	position: relative;
+	margin : auto;
+	margin-top: 0;
+	top: 120px;
+	color: black;
+}
+
+.rap #a70 {
+	list-style-image: url('../images/icon70.png');
+	border-top: solid #6c148e 7px;
+}
+
+.rap #a80 {
+	list-style-image: url('../images/icon80.png');
+	border-top: solid #6c148e 7px;
+}
+
+.rap #a90 {
+	list-style-image: url('../images/icon90.png');
+	border-top: solid #6c148e 7px;
+}
+
+.rap #a2000 {
+	list-style-image: url('../images/icon00.png');
+	border-top: solid #6c148e 7px;
+}
+
+#conclusion{
+	border-top: dashed  #6c148e 7px;
+}	
+.rap .frise ol {
+	position: relative;
+	display: block;
+	margin: 100px;
+	height: 14px;
+}
+
+
+
+
+.rap .frise ol li {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 300px;
+	font: bold 14px bahnschrift;
+    height: 50px;
+}
+
+
+.rap .frise li:hover {
+	cursor: pointer;
+  color: #6c148e;
+}
+.rap .frise li:hover .description {
+  display: block;
+}
+
+.rap .top{
+	position: fixed;
+	bottom: 35px;
+	right: 35px;
+	padding: 20px 25px 20px 25px;
+	text-decoration : none;
+	background-image: url('../images/up.png');
+	max-height: 130px;
+	font-size: 10px;
+
+}
+
+
+.rap table{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	color: black;
+	z-index: 3;
+}
+
+.tabartistes td{
+	border: 2px solid #6c148e;
+	background-color: rgba( 255,  215,  255, 0.6);
+	padding: 5px;
+	text-align: center;
+}
+
+.tabartistes th{
+	border: 2px solid #6c148e;
+}
+
+.tabartistes thead{
+	color: white;
+	background-color: rgba( 255,  215,  255, );
+}
+
+
+.koolherc{
+    transform: rotate(20deg);
+}
+.blockparty{
+    transform: rotate(-10deg);
+}
+
+.legende {
+	text-align: right;
+	display: flow;
+}
+
+
+.quiz	* {
+  box-sizing: border-box;
+}
+.quiz	.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.quiz .cta {
+    display: flex;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    background: white;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+}
+
+.quiz .cta:focus {
+   outline: none; 
+}
+
+.quiz .cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #6c148e;
+}
+
+.quiz .cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+.quiz .cta:hover  span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+}
+
+ .quiz span {
+    transform: skewX(15deg) 
+  }
+
+ .quiz span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+ }
+  
+.rock html{
+    --left-bg-color: rgba(223, 39, 39, 0.7);
+    --left-button-hover-color: rgba(161, 11, 11, 0.3);
+    --right-bg-color: rgba(43, 43, 43, 0.8);
+    --couleur-bouton-droite-hover: rgba(92, 92, 92, 0.3);
+    --hover-width: 75%;
+    --other-width: 25%;
+    --speed: 1000ms;
+  }
+  
+ .htmlabout table, .htmlabout img{
+	 max-height: 25px;
+ }
+	 .email{
+		 max-height: 10px;
+	 }
+	 
+.rock  html:not(.htmlindex), body {
+    padding:0;
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+	background-image: url('../images/Rock/about-bg.jpg');
+	color: white;
+	background-color: grey;
+  }
+  
+  .htmlindex{    padding:0;
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+	color: white;
+	background-color: grey;
+	}
+	  
+	  .htmlindex a{
+		  color: white;
+		  text-decoration: none;
+	  }
+  .rock a{
+	  color: darkred;
+  }
+  .rock a:hover{
+	  color: red;
+  }
+.rock  img{
+	  max-height: 10px;
+  }
+ .rock h1 {
+    font-size: rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+  
+.rock  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ #droite{
+    float: right !important;
+  }
+  #gauche{
+    float: left;
+  }#milieu{
+    float: center;
+  }
+  
+  
+ .rock li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+.rock  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+.rock  .actif {
+    background-color: #4CAF50;
+  }
+.rock  .bouton {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    height: 2.5rem;
+    padding-top: 1.3rem;
+    width: 15rem;
+    text-align: center;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transform: translateX(-50%);
+  }
+  
+  .fenetre.gauche .bouton:hover {
+    background-color: var(--left-button-hover-color);
+    border-color: var(--left-button-hover-color);
+  }
+  
+  .fenetre.droite .bouton:hover {
+    background-color: var(--couleur-bouton-droite-hover);
+    border-color: var(--couleur-bouton-droite-hover);
+  }
+  
+  .duo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgb(49, 49, 49);
+  }
+  
+  .fenetre {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .fenetre.gauche {
+    left:0;
+    background: url('../images/box2.jpg') center center no-repeat ;
+    background-size: cover;
+  }
+
+  .fenetre.gauche:before {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .fenetre.droite {
+    right:0;
+    background: url('../images/guitare2.jpg') center center no-repeat;
+    background-size: cover;
+  }
+  
+  .fenetre.droite:before {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  @media(max-width: 800px) {
+.rock    h1 {
+      font-size: 2rem;
+    }
+  
+.rock    .bouton {
+      width: 12rem;
+    }
+  }
+  
+  @media(max-height: 700px) {
+ .rock   .bouton {
+      top: 70%;
+    }
+  }
+  
+ .rock footer{
+  background-color: grey;
+  text-align: center;
+ }

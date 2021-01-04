@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr" class="rap quiz">
+    <head>
+        <meta charset="utf-8" />
+        <link rel='shortcut icon' type='image/x-icon' href='../../images/favicon.ico' />
+        <title>Rap 'n' Roll - Quiz</title>
+        <link rel="stylesheet" media="screen and (min-width:721px)" href="../../CSS/style.css" />
+        <link rel="stylesheet" media="screen and (max-width:720px)" href="../../CSS/mobile.css" />
+        <meta name="viewport"  content="width=max-device-width, initial-scale=1" />
+     </head>
+
+<body>
+
+
+<script language="javascript" type="text/javascript">
+function validquizz() /*nom de la fonction*/
+{
+if (document.getElementById("vrai").checked)
+	{
+	alert ('Bonne réponse !'); /* On affiche une boite de dialogue alert Bonne réponse */
+	return true; /* On transmet le formulaire*/
+	} else { /* Sinon */
+	alert ('Mauvaise réponse !'); /* On affiche une boite de dialogue alert Bonne réponse */
+	return false; /*On ne transmet pas le formulaire */
+	}
+}
+</script>
+
+
+</body>
+    	<header>
+            <a href="../../index.html">
+                <img class="logo" src="../../images/logotrsp2.png" scale="0">
+            </a>
+            <div>
+                <nav>
+                    <ul id="menu-rap">
+        
+                        <li><a href="rap-frise.html">Histoire du Rap</a></li>
+                        <li><b> |</b></li>
+                        <li><a href="rap-quiz.html">Quiz</a>
+                        </li>
+                        <li><b> | </b></li>
+                        <li><a href="rap-artistes.html">Artistes</a></li>
+                    </ul>
+                </nav>
+            </div>
+      		<h1>Quiz sur le rap</h1>
+    	</header>
+<article>
+<form id="form1" name="form1" method="get" action="rap-quiz6.html" onsubmit="return validquizz();">
+<table>
+<tr>
+<td align="center">NWA est un groupe qui fut créé par ICE CUBE.
+<input type="radio" name="rep1" value="0" id="faux" /> Vrai
+<input type="radio" name="rep2" value="1" id="vrai" /> Faux
+
+<br />
+<br/>
+<br/>
+<br/>
+<div class="wrapper">
+  <a class="cta" href="#">
+    <input type="submit" value="Valider" />
+    <span>
+      <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+       
+      </svg>
+    </span>
+  </a>
+</div>
+</td>
+</tr>
+</table>
+</form>
+</article>
+ <footer>
+ <p><a href="../../about.html">A propos</a></p>
+ <p>© 2019 Projet Web n°1 IUT de Metz - Université de Lorraine</p>
+ </footer>
+	     <a class="top" href = "#">Retour en haut de la page</a>
+</html>
